@@ -99,6 +99,14 @@ Sub StockResults()
         ws.Cells(4, 16).Value = greatestVolumeTicker
         ws.Cells(4, 17).Value = greatestVolume
 
+        'Reset values edit 3/18/2024'
+        greatestIncrease = 0
+        greatestDecrease = 0
+        greatestVolume = 0
+        greatestIncreaseTicker = ""
+        greatestDecreaseTicker = ""
+        greatestVolumeTicker = ""
+
     Next ws
     
 
